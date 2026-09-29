@@ -31,10 +31,8 @@ goes into all four files.
 
 | Item | Where | Status |
 |---|---|---|
-| Contact email | footer of every page, `participants.html`, `travel.html` | `gsn@illinois.edu` (PI, from the proposal); swap for an event list when one exists |
 | Application form URL | `participants.html` registration box | disabled button, `href="#"` |
-| Applications open / deadline dates | `index.html` Important Dates | badges read `Date TBA` |
-| Code of Conduct link | `program.html` Program Notes | text only, no URL |
+| Applications open date | `index.html` Important Dates | badge reads `Date TBA`; deadline is set (Fri Oct 30, 2026, per GN 2026-09-29) |
 | Hotel block | `travel.html` Lodging | "coming soon" box; replace with the hotel card pattern from rubinalerts26 `travel.html` |
 | Daily program | `program.html` | 3-day compression of the proposal's 5-day agenda; unconfirmed with Adam / Ayan; labelled "Draft" on the page |
 | Speakers | `program.html` Day 1 primer | `TBD` |
@@ -43,7 +41,7 @@ Each placeholder is marked with an HTML comment starting `PLACEHOLDER:`; `grep -
 
 ## Deployment
 
-Intended: GitHub Pages from `main`. Not yet a git repo and no GitHub repo exists.
+GitHub Pages from `main` at https://rubinfm26.github.io/ (live since 2026-09-29). Repo `rubinfm26/rubinfm26.github.io`; gnarayan pushes as a collaborator. Push to main to deploy.
 
 Jekyll runs passively (no Liquid or front matter). `_config.yml` only excludes non-web files
 (`CLAUDE.md`, `README.md`, `_admin/`, `*.py`) from the built site. Do not add `.nojekyll`.
@@ -111,3 +109,5 @@ magick input.jpg -resize '1920x>' -quality 82 -strip -interlace Plane \
 first-draft register review (vs Boom! 2022, rubinalerts26, the proposal) and the clarity/fidelity
 review (vs the proposal, DESC/TVSSC grad-student persona). `_admin/register_negatives.md` is the
 workshop-website register cache: read it before drafting any new copy for this site.
+
+Contact email throughout: `rubinfm26@lists.skai-institute.org` (SkAI list, created 2026-09-29).
