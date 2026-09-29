@@ -21,8 +21,8 @@ December; Day 3 has a long lunch because the room is in use). The site follows t
 - `program.html` — at-a-glance cards + three daily schedule tables (draft) + program notes
 - `participants.html` — application box, SOC cards, LINCC partner cards, empty participant grid
 - `travel.html` — CIERA venue + map, getting to Evanston, lodging stub, about Evanston and Chicago
-- `css/styles.css` — single stylesheet; fall palette: burnt orange `#b5451b`, amber `#e8912d`, goldenrod `#f3c26b` on espresso `#2a1c16`
-- `assets/images/` — sponsor logos, `rubin-sunset.jpg` (hero; NOIRLab `noirlab2417b`, O. Bonin/SLAC, CC BY 4.0), `hancock-autumn.jpg` (purpose section; the Hancock Center from Lincoln Park, Wikimedia Commons "John_Hancock1.JPG", Ronincmc, CC BY-SA 3.0). Credits are printed on the page; keep them if the images stay.
+- `css/styles.css` — single stylesheet; winter palette: steel blue `#3b82c4`, ice blue `#8fd3f4`, silver `#dbe7f3` on deep navy `#111a2e`
+- `assets/images/` — sponsor logos, `rubin-snow.jpg` (hero; NOIRLab "Cerro Pachón Snowline" `Pachón-snowstorm-CC`, NOIRLab/NSF/AURA, CC BY 4.0), `northwestern-winter.jpg` (purpose section; Wikimedia Commons "Trees in the Snow (6779788381)", Jaysin Trevino, CC BY 2.0). Credits are printed on the page; keep them if the images stay.
 
 The nav, footer, and inline script are copied by hand into each page. A change to any of them
 goes into all four files.
@@ -96,10 +96,10 @@ magick input.jpg -resize '1920x>' -quality 82 -strip -interlace Plane \
 
 ## Design Constraints
 
-- No white backgrounds outside the footer logo strip; every section uses the espresso/orange tints
+- No white backgrounds outside the footer logo strip; every section uses the navy/ice-blue tints
 - Colors are CSS custom properties under `:root`; use `var(--...)`, never hardcoded hex
 - Navigation links use class `jiggle-link`
-- Hero background is the local `rubin-sunset.jpg` (set in `.hero` in `styles.css`); the `--color-purple*` variable names are legacy and hold the orange/amber values
+- Hero background is the local `rubin-snow.jpg` (set in `.hero` in `styles.css`); the `--color-purple*` variable names are legacy and hold the steel-blue/ice-blue values
 - Never call the event a "flagship"; "hack-week" is the funded event type
 - Vocabulary: no leverage / robust / transformative / harness / notably / importantly
 
