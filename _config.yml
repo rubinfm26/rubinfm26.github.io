@@ -1,0 +1,5 @@
+exclude:
+  - CLAUDE.md
+  - README.md
+  - "*.py"
+  - _admin/

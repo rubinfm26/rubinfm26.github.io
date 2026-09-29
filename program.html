@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Program for the SkAI x LINCC Frameworks Hack-Week, November 4-6, 2026 at the SkAI Institute, Chicago.">
+    <meta name="keywords" content="Rubin Observatory, LSST, alert stream, foundation models, Hyrax, LINCC Frameworks, SkAI Institute, LSST Discovery Alliance, hack-week">
+    <title>Program | SkAI x LINCC Frameworks Hack-Week 2026</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-text">SkAI &times; LINCC Hack-Week</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="hamburger-checkbox">
+            <label for="nav-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="jiggle-link">Home</a></li>
+                <li><a href="program.html" class="active jiggle-link">Program</a></li>
+                <li><a href="participants.html" class="jiggle-link">Participants &amp; Registration</a></li>
+                <li><a href="travel.html" class="jiggle-link">Travel &amp; Lodging</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>Hack-Week Program</h1>
+        <p>Three days from first model run to merged code</p>
+    </section>
+
+    <!-- Program Overview -->
+    <section class="section section-secondary">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Overview</span>
+                <h2>Schedule at a Glance</h2>
+                <p>Day 1 gets every participant running a SkAI model on real Rubin data. Days 2 and 3 build on the shared latent space.</p>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Day 1 &mdash; Wednesday, November 4</h3>
+                    <p>Tools and First Light</p>
+                    <ul class="data-features">
+                        <li>Intro to Hyrax and LINCC Frameworks tools</li>
+                        <li>Access to the live alert stream and DP2 imaging</li>
+                        <li>Run an existing SkAI model on real Rubin photometry</li>
+                        <li>Project pitches and team formation</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Day 2 &mdash; Thursday, November 5</h3>
+                    <p>The Shared Latent Space</p>
+                    <ul class="data-features">
+                        <li>SELDON and StarEmbed embeddings published in Hyrax</li>
+                        <li>Live alert ingestion from the Prompt Products Database</li>
+                        <li>Teams build downstream projects</li>
+                        <li>Validation against catalog cross-matches</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Day 3 &mdash; Friday, November 6</h3>
+                    <p>Ship It</p>
+                    <ul class="data-features">
+                        <li>Final sprint and simulation-to-real comparisons</li>
+                        <li>Code review and merged pull requests</li>
+                        <li>Project presentations</li>
+                        <li>Community paper outline</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Schedule -->
+    <section class="section section-tertiary">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Detailed Schedule</span>
+                <h2>Daily Program &mdash; Draft</h2>
+                <p>Times and speakers are provisional and will be updated as the program is finalized</p>
+            </div>
+
+            <!-- Day 1 -->
+            <div class="program-day">
+                <h3>Day 1 &mdash; Wednesday, November 4, 2026</h3>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Session</th>
+                            <th>Speaker/Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="schedule-time">09:00 - 09:30</td>
+                            <td>Registration &amp; Coffee</td>
+                            <td class="schedule-speaker">SkAI Institute</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">09:30 - 10:00</td>
+                            <td>Welcome, Goals, and Logistics</td>
+                            <td class="schedule-speaker">Organizers</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">10:00 - 10:45</td>
+                            <td>The Rubin Alert Stream and Prompt Products: A Primer</td>
+                            <td class="schedule-speaker">TBD</td>
+                        </tr>
+                        <tr class="schedule-break">
+                            <td class="schedule-time">10:45 - 11:00</td>
+                            <td colspan="2">Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">11:00 - 12:00</td>
+                            <td>Introduction to Hyrax and LINCC Frameworks Tools</td>
+                            <td class="schedule-speaker">LINCC Frameworks team</td>
+                        </tr>
+                        <tr class="schedule-break">
+                            <td class="schedule-time">12:00 - 13:00</td>
+                            <td colspan="2">Lunch</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">13:00 - 15:00</td>
+                            <td>Hands-On: Access the Live Alert Stream and DP2; Run a SkAI Model (SELDON / StarEmbed) on Real Rubin Photometry inside Hyrax</td>
+                            <td class="schedule-speaker">SkAI model team</td>
+                        </tr>
+                        <tr class="schedule-break">
+                            <td class="schedule-time">15:00 - 15:30</td>
+                            <td colspan="2">Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">15:30 - 16:30</td>
+                            <td colspan="2">Hands-On Continues</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">16:30 - 17:00</td>
+                            <td>Project Pitches &amp; Team Formation</td>
+                            <td class="schedule-speaker">All Participants</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Day 2 -->
+            <div class="program-day">
+                <h3>Day 2 &mdash; Thursday, November 5, 2026</h3>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Session</th>
+                            <th>Speaker/Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="schedule-time">09:00 - 09:30</td>
+                            <td>Morning Coffee</td>
+                            <td class="schedule-speaker">SkAI Institute</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">09:30 - 10:30</td>
+                            <td>The Shared Latent Space: SELDON and StarEmbed Embeddings of Live Alerts Published in Hyrax; Live Ingestion from the Prompt Products Database</td>
+                            <td class="schedule-speaker">Core team</td>
+                        </tr>
+                        <tr class="schedule-break">
+                            <td class="schedule-time">10:30 - 11:00</td>
+                            <td colspan="2">Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">11:00 - 12:30</td>
+                            <td colspan="2">Hacking Session 1</td>
+                        </tr>
+                        <tr class="schedule-break">
+                            <td class="schedule-time">12:30 - 13:30</td>
+                            <td colspan="2">Lunch</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">13:30 - 15:00</td>
+                            <td colspan="2">Hacking Session 2</td>
+                        </tr>
+                        <tr class="schedule-break">
+                            <td class="schedule-time">15:00 - 15:30</td>
+                            <td colspan="2">Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">15:30 - 16:30</td>
+                            <td colspan="2">Hacking Session 3</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">16:30 - 17:00</td>
+                            <td>Team Check-Ins</td>
+                            <td class="schedule-speaker">All Teams</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Day 3 -->
+            <div class="program-day">
+                <h3>Day 3 &mdash; Friday, November 6, 2026</h3>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Session</th>
+                            <th>Speaker/Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="schedule-time">09:00 - 09:30</td>
+                            <td>Morning Coffee</td>
+                            <td class="schedule-speaker">SkAI Institute</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">09:30 - 11:00</td>
+                            <td colspan="2">Final Hacking Sprint</td>
+                        </tr>
+                        <tr class="schedule-break">
+                            <td class="schedule-time">11:00 - 11:30</td>
+                            <td colspan="2">Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">11:30 - 12:30</td>
+                            <td>Code Review, Merged Pull Requests, and Rubin Data Academy Notebooks</td>
+                            <td class="schedule-speaker">All Teams</td>
+                        </tr>
+                        <tr class="schedule-break">
+                            <td class="schedule-time">12:30 - 13:30</td>
+                            <td colspan="2">Lunch</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">13:30 - 14:45</td>
+                            <td>Project Presentations</td>
+                            <td class="schedule-speaker">All Teams</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">14:45 - 15:30</td>
+                            <td>Community Paper Outline &amp; Next Steps</td>
+                            <td class="schedule-speaker">All Participants</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">15:30 - 16:00</td>
+                            <td>Closing Remarks</td>
+                            <td class="schedule-speaker">Organizers</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Notes -->
+    <section class="section section-primary">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Additional Information</span>
+                <h2>Program Notes</h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>Before You Arrive</h4>
+                    <p>Preparatory material from the Rubin Data Academy and a plain-language primer on the SkAI models will be sent to participants in advance, so Day 1 starts with data analysis rather than setup.</p>
+                </div>
+                <div class="card">
+                    <h4>Computing Resources</h4>
+                    <p>All computing is supported by an existing NCSA Delta GPU allocation. Account details will be shared with confirmed participants before the hack-week.</p>
+                </div>
+                <div class="card">
+                    <h4>Code of Conduct</h4>
+                    <!-- PLACEHOLDER: link the LINCC Frameworks Code of Conduct once the URL is confirmed -->
+                    <p>All participants are required to abide by the LINCC Frameworks Code of Conduct. Reporting procedures will be shared at registration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Deploying Foundation Models on the Rubin Alert Stream</h4>
+                <p>A SkAI &times; LINCC Frameworks Hack-Week: deploying SkAI foundation models on live Rubin alerts inside Hyrax.</p>
+                <p class="mt-sm">November 4&ndash;6, 2026<br>SkAI Institute, Chicago, IL</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html" class="jiggle-link">Home</a></li>
+                    <li><a href="program.html" class="jiggle-link">Program</a></li>
+                    <li><a href="participants.html" class="jiggle-link">Participants &amp; Registration</a></li>
+                    <li><a href="travel.html" class="jiggle-link">Travel &amp; Lodging</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <!-- PLACEHOLDER: replace with the event mailing list once created -->
+                    <li><a href="mailto:gsn@illinois.edu" class="jiggle-link">gsn@illinois.edu</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-logos">
+            <p class="footer-logos-label">Supported by</p>
+            <div class="footer-logos-row">
+                <a href="https://lsstdiscoveryalliance.org/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/logo-lsstda.png" alt="LSST Discovery Alliance" class="footer-logo"></a>
+                <a href="https://skai-institute.org/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/logo-skai.png" alt="NSF-Simons SkAI Institute" class="footer-logo"></a>
+                <a href="https://nsf.gov/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/logo-nsf.png" alt="National Science Foundation" class="footer-logo"></a>
+                <a href="https://www.simonsfoundation.org/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/SimonsFoundation.png" alt="Simons Foundation" class="footer-logo"></a>
+                <a href="https://rubinobservatory.org/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/logo-rubin.png" alt="Rubin Observatory" class="footer-logo"></a>
+            </div>
+            <p class="footer-funding-note">This hack-week is supported by the <a href="https://lsstdiscoveryalliance.org/" target="_blank" rel="noopener">LSST Discovery Alliance</a> through the <a href="https://lsstdiscoveryalliance.org/lincc/" target="_blank" rel="noopener">LINCC Frameworks</a> Community Events program.</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SkAI &times; LINCC Frameworks Hack-Week. Hosted at the SkAI Institute.</p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-toggle').checked = false;
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SkAI x LINCC Frameworks Hack-Week: deploying foundation models on the Rubin alert stream inside Hyrax. November 4-6, 2026 at the SkAI Institute, Chicago, IL.">
+    <meta name="keywords" content="Rubin Observatory, LSST, alert stream, foundation models, Hyrax, LINCC Frameworks, SkAI Institute, LSST Discovery Alliance, hack-week">
+    <title>Deploying Foundation Models on the Rubin Alert Stream | A SkAI x LINCC Frameworks Hack-Week</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="nav-logo-text">SkAI &times; LINCC Hack-Week</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="hamburger-checkbox">
+            <label for="nav-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active jiggle-link">Home</a></li>
+                <li><a href="program.html" class="jiggle-link">Program</a></li>
+                <li><a href="participants.html" class="jiggle-link">Participants &amp; Registration</a></li>
+                <li><a href="travel.html" class="jiggle-link">Travel &amp; Lodging</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="stars" id="stars"></div>
+
+        <div class="hero-content">
+            <span class="hero-badge">November 4&ndash;6, 2026</span>
+            <h1>Foundation Models on the Rubin Alert Stream</h1>
+            <p class="hero-subtitle">
+                A SkAI &times; LINCC Frameworks Hack-Week: run SkAI foundation models on live Rubin alerts inside Hyrax, then build your own science on the shared representation
+            </p>
+            <div class="hero-meta">
+                <div class="hero-meta-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    SkAI Institute, Chicago, IL
+                </div>
+                <div class="hero-meta-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 4H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+                    </svg>
+                    Three Days, In Person
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="participants.html" class="btn btn-primary jiggle-link">Apply to Attend</a>
+                <a href="#vision" class="btn btn-secondary jiggle-link">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="section section-secondary">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Purpose</span>
+                <h2>Shared Models for a Shared Sky</h2>
+                <p>Foundation models are trained once. This hack-week puts them in everyone's hands.</p>
+            </div>
+            <div class="data-content">
+                <div class="data-text">
+                    <p>The <a href="https://rubinobservatory.org/" target="_blank" rel="noopener">Vera C. Rubin Observatory</a> alert stream has been public since February 2026, delivering roughly 10 million alerts per night. Foundation models are the most powerful tools modern AI offers for data at this scale, but training one takes curated data, GPU time, and specialist engineering that no single research group can marshal. Over the past two years, teams at the <a href="https://skai-institute.org/" target="_blank" rel="noopener">NSF-Simons SkAI Institute</a> built SELDON and StarEmbed, foundation models for multi-band light curves and variable stars, now consolidating into TEMPI, SkAI's world-model program for the time-domain sky.</p>
+                    <p>This hack-week shares those models with the broader Rubin community. Working inside <a href="https://github.com/lincc-frameworks/hyrax" target="_blank" rel="noopener">Hyrax</a>, the <a href="https://lsstdiscoveryalliance.org/lincc/" target="_blank" rel="noopener">LINCC Frameworks</a> tool for model-agnostic exploration of survey data, we will compute and publish a shared latent-space representation of live Rubin alert-stream sources. It is the first time a SkAI foundation model runs at survey scale on real, operationally interrupted LSST observations rather than smooth simulated cadence.</p>
+                    <p>On that shared representation, participants build independent downstream projects: transient classification, photometric redshifts, anomaly search, galaxy mergers, and catalog cross-matching with LSDB. The code and tutorials go back to the public Hyrax repository and the Rubin Data Academy. Supported by the <a href="https://lsstdiscoveryalliance.org/" target="_blank" rel="noopener">LSST Discovery Alliance</a>, the hack-week runs November 4&ndash;6, 2026 at the SkAI Institute in Chicago.</p>
+                </div>
+                <div class="data-visual" style="padding: 0; overflow: hidden;">
+                    <img src="assets/images/rubin-star-trails.jpeg" alt="Vera C. Rubin Observatory with star trails" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: var(--radius-lg);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="section section-primary">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We'll Build</span>
+                <h2>Hack-Week Goals</h2>
+                <p>By Friday: a working deployment of SkAI foundation models on real Rubin data, inside a framework the whole community can use</p>
+            </div>
+            <div class="goals-grid">
+                <div class="goal-item">
+                    <div class="goal-number">01</div>
+                    <div class="goal-content">
+                        <h4>Shared Latent Space of Live Rubin Alerts</h4>
+                        <p>Compute SELDON and StarEmbed embeddings for live alert-stream sources and publish them inside Hyrax as a resource the whole Rubin community can use.</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">02</div>
+                    <div class="goal-content">
+                        <h4>Downstream Science Probes</h4>
+                        <p>Train lightweight classifiers, photometric-redshift estimators, and anomaly searches on the frozen representation, so each project needs far fewer labels.</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">03</div>
+                    <div class="goal-content">
+                        <h4>Simulation-to-Real Validation</h4>
+                        <p>Measure how models trained on ELAsTiCC simulations perform against Rubin's real operating cadence, with DP2 imaging as a static cross-check.</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">04</div>
+                    <div class="goal-content">
+                        <h4>Catalog Cross-Matching at Scale</h4>
+                        <p>Use LSDB/HATS through the SCiMMA cross-match service to pull archival photometry and DES postage stamps for candidates flagged in the latent space.</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">05</div>
+                    <div class="goal-content">
+                        <h4>Code, Tutorials, and Merged Pull Requests</h4>
+                        <p>Contribute working code back to the public Hyrax repository and write tutorial notebooks for the Rubin Data Academy.</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">06</div>
+                    <div class="goal-content">
+                        <h4>Community Paper and Early-Career Training</h4>
+                        <p>Outline a community paper, and send early-career researchers from DESC, TVSSC, and ISSC home able to apply these tools to their own science.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates Section -->
+    <section class="section section-tertiary">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Mark Your Calendar</span>
+                <h2>Important Dates</h2>
+            </div>
+            <div class="dates-timeline">
+                <!-- PLACEHOLDER: set month/day once the open call is scheduled -->
+                <div class="date-item">
+                    <div class="date-badge">
+                        <span class="month">Date</span>
+                        <span class="day">TBA</span>
+                    </div>
+                    <div class="date-content">
+                        <h4>Applications Open</h4>
+                        <p>Open call issued through LSST Discovery Alliance and Science Collaboration Slack channels. Graduate students and postdocs are encouraged to apply.</p>
+                    </div>
+                </div>
+                <!-- PLACEHOLDER: set month/day once the deadline is fixed -->
+                <div class="date-item">
+                    <div class="date-badge">
+                        <span class="month">Date</span>
+                        <span class="day">TBA</span>
+                    </div>
+                    <div class="date-content">
+                        <h4>Application Deadline</h4>
+                        <p>Selected participants join project teams alongside the SkAI model builders, LINCC Frameworks engineers, and broker specialists.</p>
+                    </div>
+                </div>
+                <div class="date-item">
+                    <div class="date-badge">
+                        <span class="month">Nov</span>
+                        <span class="day">4&ndash;6</span>
+                    </div>
+                    <div class="date-content">
+                        <h4>Hack-Week</h4>
+                        <p>Three days of hands-on work at the SkAI Institute, Chicago.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Deploying Foundation Models on the Rubin Alert Stream</h4>
+                <p>A SkAI &times; LINCC Frameworks Hack-Week: deploying SkAI foundation models on live Rubin alerts inside Hyrax.</p>
+                <p class="mt-sm">November 4&ndash;6, 2026<br>SkAI Institute, Chicago, IL</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html" class="jiggle-link">Home</a></li>
+                    <li><a href="program.html" class="jiggle-link">Program</a></li>
+                    <li><a href="participants.html" class="jiggle-link">Participants &amp; Registration</a></li>
+                    <li><a href="travel.html" class="jiggle-link">Travel &amp; Lodging</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <!-- PLACEHOLDER: replace with the event mailing list once created -->
+                    <li><a href="mailto:gsn@illinois.edu" class="jiggle-link">gsn@illinois.edu</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-logos">
+            <p class="footer-logos-label">Supported by</p>
+            <div class="footer-logos-row">
+                <a href="https://lsstdiscoveryalliance.org/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/logo-lsstda.png" alt="LSST Discovery Alliance" class="footer-logo"></a>
+                <a href="https://skai-institute.org/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/logo-skai.png" alt="NSF-Simons SkAI Institute" class="footer-logo"></a>
+                <a href="https://nsf.gov/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/logo-nsf.png" alt="National Science Foundation" class="footer-logo"></a>
+                <a href="https://www.simonsfoundation.org/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/SimonsFoundation.png" alt="Simons Foundation" class="footer-logo"></a>
+                <a href="https://rubinobservatory.org/" target="_blank" rel="noopener" class="footer-logo-link"><img src="assets/images/logo-rubin.png" alt="Rubin Observatory" class="footer-logo"></a>
+            </div>
+            <p class="footer-funding-note">This hack-week is supported by the <a href="https://lsstdiscoveryalliance.org/" target="_blank" rel="noopener">LSST Discovery Alliance</a> through the <a href="https://lsstdiscoveryalliance.org/lincc/" target="_blank" rel="noopener">LINCC Frameworks</a> Community Events program.</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SkAI &times; LINCC Frameworks Hack-Week. Hosted at the SkAI Institute.</p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-toggle').checked = false;
+            });
+        });
+
+        function generateStars() {
+            const starsContainer = document.getElementById('stars');
+            if (!starsContainer) return;
+            for (let i = 0; i < 80; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.animationDelay = Math.random() * 3 + 's';
+                star.style.opacity = Math.random() * 0.5 + 0.3;
+                starsContainer.appendChild(star);
+            }
+        }
+        generateStars();
+    </script>
+</body>
+</html>
