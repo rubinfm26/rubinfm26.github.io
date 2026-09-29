@@ -22,7 +22,7 @@ December; Day 3 has a long lunch because the room is in use). The site follows t
 - `participants.html` — application box, SOC cards, LINCC partner cards, empty participant grid
 - `travel.html` — CIERA venue + map, getting to Evanston, lodging stub, about Evanston and Chicago
 - `css/styles.css` — single stylesheet; winter palette: steel blue `#3b82c4`, ice blue `#8fd3f4`, silver `#dbe7f3` on deep navy `#111a2e`
-- `assets/images/` — sponsor logos, `rubin-snow.jpg` (hero; NOIRLab "Cerro Pachón Snowline" `Pachón-snowstorm-CC`, NOIRLab/NSF/AURA, CC BY 4.0), `northwestern-winter.jpg` (purpose section; Wikimedia Commons "Trees in the Snow (6779788381)", Jaysin Trevino, CC BY 2.0). Credits are printed on the page; keep them if the images stay.
+- `assets/images/` — sponsor logos, `rubin-snow.jpg` (hero; 1600×1066 frame `pasted-movie-5690.png` from GN's Keynote `Presentations/GenSci/Narayan_AoT_Pygmalion_Sep2026.key`: Rubin under construction in snow, blue sky. Credit on the page reads "Rubin Observatory/NOIRLab" `[INFERRED — verify: GN to confirm the source video/photo and exact credit; not found in the NOIRLab or rubinobservatory.org galleries on 2026-09-29]`), `northwestern-winter.jpg` (purpose section; Wikimedia Commons "Trees in the Snow (6779788381)", Jaysin Trevino, CC BY 2.0). Credits are printed on the page; keep them if the images stay.
 
 The nav, footer, and inline script are copied by hand into each page. A change to any of them
 goes into all four files.
