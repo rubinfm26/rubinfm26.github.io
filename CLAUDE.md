@@ -21,8 +21,8 @@ Slack with Elise Ahn and Adam Miller (Sept 2026). The site follows the Slack dec
 - `program.html` — at-a-glance cards + three daily schedule tables (draft) + program notes
 - `participants.html` — application box, SOC cards, LINCC partner cards, empty participant grid
 - `travel.html` — SkAI venue + map, getting to Chicago, lodging stub, about Chicago
-- `css/styles.css` — single stylesheet; teal `#058B8C`/`#00BABC` on dark grey `#313333`
-- `assets/images/` — sponsor logos, `skai.jpg` (venue), `rubin-star-trails.jpeg` (purpose section)
+- `css/styles.css` — single stylesheet; fall palette: burnt orange `#b5451b`, amber `#e8912d`, goldenrod `#f3c26b` on espresso `#2a1c16`
+- `assets/images/` — sponsor logos, `skai.jpg` (venue, Barry Butler Photography), `rubin-sunset.jpg` (hero; NOIRLab `noirlab2417b`, O. Bonin/SLAC, CC BY 4.0), `chicago-autumn.jpg` (purpose section; Wikimedia Commons "Chicago autumn - 1 November 2023 - 1", Erik Cooper, CC BY 2.0). Credits are printed on the page; keep them if the images stay.
 
 The nav, footer, and inline script are copied by hand into each page. A change to any of them
 goes into all four files.
@@ -98,9 +98,9 @@ magick input.jpg -resize '1920x>' -quality 82 -strip -interlace Plane \
 
 ## Design Constraints
 
-- No white backgrounds; every section uses the dark/teal tints
+- No white backgrounds outside the footer logo strip; every section uses the espresso/orange tints
 - Colors are CSS custom properties under `:root`; use `var(--...)`, never hardcoded hex
 - Navigation links use class `jiggle-link`
-- Hero background is an external Rubin telescope image (URL in `.hero` in `styles.css`)
+- Hero background is the local `rubin-sunset.jpg` (set in `.hero` in `styles.css`); the `--color-purple*` variable names are legacy and hold the orange/amber values
 - Never call the event a "flagship"; "hack-week" is the funded event type
 - Vocabulary: no leverage / robust / transformative / harness / notably / importantly
