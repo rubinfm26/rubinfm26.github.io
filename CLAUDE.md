@@ -5,24 +5,24 @@ Guidance for Claude Code when working in this repository.
 ## Overview
 
 Static website for **Deploying Foundation Models on the Rubin Alert Stream: A SkAI × LINCC
-Frameworks Hack-Week** (November 4–6, 2026, SkAI Institute, 172 E. Chestnut St., Chicago IL).
+Frameworks Hack-Week** (December 7–9, 2026, CIERA, Northwestern University, 1800 Sherman Ave., Evanston IL).
 Funded by the LSST Discovery Alliance through the LINCC Frameworks Community Events program
-(awarded 2026-07-18). PI Gautham Narayan (UIUC), Co-PI Adam Miller (Northwestern); Adam runs
-the event on site. Pure HTML/CSS, no build step. Cloned from `~/work/rubinalerts26.github.io/`.
+(awarded 2026-07-18). PI Gautham Narayan (UIUC), Co-PI Adam Miller (Northwestern); Adam runs the event on site; Aritra Ghosh and Neven Caplar (LINCC) join by Zoom. Pure HTML/CSS, no build step. Cloned from `~/work/rubinalerts26.github.io/`.
 
 Source of truth for scope, SOC, program and budget: the funded proposal at
 `~/Dropbox/work/Proposals/2026A/LSST_DA_DP2_Hyrax_Workshop/proposal/submitted_20260710/`.
-The proposal was written for Nov 16–20 at DPI; the move to Nov 4–6 at SkAI was settled in
-Slack with Elise Ahn and Adam Miller (Sept 2026). The site follows the Slack decision.
+The proposal was written for Nov 16–20 at DPI. It moved to Nov 4–6 at SkAI (Slack, Sept 2026), then on
+2026-09-29 to Dec 7–9 at CIERA after Adam reserved the CIERA colloquium room (SkAI floor unavailable in
+December; Day 3 has a long lunch because the room is in use). The site follows the latest Slack decision.
 
 ## Structure
 
 - `index.html` — hero, purpose, six goals, important dates
 - `program.html` — at-a-glance cards + three daily schedule tables (draft) + program notes
 - `participants.html` — application box, SOC cards, LINCC partner cards, empty participant grid
-- `travel.html` — SkAI venue + map, getting to Chicago, lodging stub, about Chicago
+- `travel.html` — CIERA venue + map, getting to Evanston, lodging stub, about Evanston and Chicago
 - `css/styles.css` — single stylesheet; fall palette: burnt orange `#b5451b`, amber `#e8912d`, goldenrod `#f3c26b` on espresso `#2a1c16`
-- `assets/images/` — sponsor logos, `skai.jpg` (venue, Barry Butler Photography), `rubin-sunset.jpg` (hero; NOIRLab `noirlab2417b`, O. Bonin/SLAC, CC BY 4.0), `hancock-autumn.jpg` (purpose section; the Hancock Center from Lincoln Park, Wikimedia Commons "John_Hancock1.JPG", Ronincmc, CC BY-SA 3.0). Credits are printed on the page; keep them if the images stay.
+- `assets/images/` — sponsor logos, `rubin-sunset.jpg` (hero; NOIRLab `noirlab2417b`, O. Bonin/SLAC, CC BY 4.0), `hancock-autumn.jpg` (purpose section; the Hancock Center from Lincoln Park, Wikimedia Commons "John_Hancock1.JPG", Ronincmc, CC BY-SA 3.0). Credits are printed on the page; keep them if the images stay.
 
 The nav, footer, and inline script are copied by hand into each page. A change to any of them
 goes into all four files.
@@ -32,8 +32,8 @@ goes into all four files.
 | Item | Where | Status |
 |---|---|---|
 | Application form URL | `participants.html` registration box | disabled button, `href="#"` |
-| Applications open date | `index.html` Important Dates | badge reads `Date TBA`; deadline is set (Fri Oct 30, 2026, per GN 2026-09-29) |
-| Hotel block | `travel.html` Lodging | "coming soon" box; replace with the hotel card pattern from rubinalerts26 `travel.html` |
+| Applications open date | `index.html` Important Dates | badge reads `Date TBA`; deadline is set (Fri Dec 4, 2026, the Friday before the meeting, per GN 2026-09-29) |
+| Hotel block | `travel.html` Lodging | "coming soon" box (downtown Evanston); replace with the hotel card pattern from rubinalerts26 `travel.html` |
 | Daily program | `program.html` | 3-day compression of the proposal's 5-day agenda; unconfirmed with Adam / Ayan; labelled "Draft" on the page |
 | Speakers | `program.html` Day 1 primer | `TBD` |
 
