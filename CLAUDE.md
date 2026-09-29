@@ -22,7 +22,7 @@ Slack with Elise Ahn and Adam Miller (Sept 2026). The site follows the Slack dec
 - `participants.html` — application box, SOC cards, LINCC partner cards, empty participant grid
 - `travel.html` — SkAI venue + map, getting to Chicago, lodging stub, about Chicago
 - `css/styles.css` — single stylesheet; fall palette: burnt orange `#b5451b`, amber `#e8912d`, goldenrod `#f3c26b` on espresso `#2a1c16`
-- `assets/images/` — sponsor logos, `skai.jpg` (venue, Barry Butler Photography), `rubin-sunset.jpg` (hero; NOIRLab `noirlab2417b`, O. Bonin/SLAC, CC BY 4.0), `chicago-autumn.jpg` (purpose section; Wikimedia Commons "Chicago autumn - 1 November 2023 - 1", Erik Cooper, CC BY 2.0). Credits are printed on the page; keep them if the images stay.
+- `assets/images/` — sponsor logos, `skai.jpg` (venue, Barry Butler Photography), `rubin-sunset.jpg` (hero; NOIRLab `noirlab2417b`, O. Bonin/SLAC, CC BY 4.0), `hancock-autumn.jpg` (purpose section; the Hancock Center from Lincoln Park, Wikimedia Commons "John_Hancock1.JPG", Ronincmc, CC BY-SA 3.0). Credits are printed on the page; keep them if the images stay.
 
 The nav, footer, and inline script are copied by hand into each page. A change to any of them
 goes into all four files.
