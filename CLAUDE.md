@@ -104,3 +104,10 @@ magick input.jpg -resize '1920x>' -quality 82 -strip -interlace Plane \
 - Hero background is the local `rubin-sunset.jpg` (set in `.hero` in `styles.css`); the `--color-purple*` variable names are legacy and hold the orange/amber values
 - Never call the event a "flagship"; "hack-week" is the funded event type
 - Vocabulary: no leverage / robust / transformative / harness / notably / importantly
+
+## Reviews
+
+`_admin/` is gitignored and excluded from the built site. `_admin/review_2026-09-29.md` holds the
+first-draft register review (vs Boom! 2022, rubinalerts26, the proposal) and the clarity/fidelity
+review (vs the proposal, DESC/TVSSC grad-student persona). `_admin/register_negatives.md` is the
+workshop-website register cache: read it before drafting any new copy for this site.
