@@ -5,24 +5,25 @@ Guidance for Claude Code when working in this repository.
 ## Overview
 
 Static website for **Deploying Foundation Models on the Rubin Alert Stream: A SkAI × LINCC
-Frameworks Hack-Week** (December 7–9, 2026, CIERA, Northwestern University, 1800 Sherman Ave., Evanston IL).
+Frameworks Hack-Week** (December 7–9, 2026, SkAI Institute, 172 E. Chestnut St., John Hancock Center, Chicago IL).
 Funded by the LSST Discovery Alliance through the LINCC Frameworks Community Events program
-(awarded 2026-07-18). PI Gautham Narayan (UIUC), Co-PI Adam Miller (Northwestern); Adam runs the event on site; Aritra Ghosh and Neven Caplar (LINCC) join by Zoom. Pure HTML/CSS, no build step. Cloned from `~/work/rubinalerts26.github.io/`.
+(awarded 2026-07-18). PI Gautham Narayan (UIUC), Co-PI Adam Miller (Northwestern); Adam runs the event on site with SkAI operations (Elise Ahn); Aritra Ghosh and Neven Caplar (LINCC) join by Zoom. Pure HTML/CSS, no build step. Cloned from `~/work/rubinalerts26.github.io/`.
 
 Source of truth for scope, SOC, program and budget: the funded proposal at
 `~/Dropbox/work/Proposals/2026A/LSST_DA_DP2_Hyrax_Workshop/proposal/submitted_20260710/`.
 The proposal was written for Nov 16–20 at DPI. It moved to Nov 4–6 at SkAI (Slack, Sept 2026), then on
-2026-09-29 to Dec 7–9 at CIERA after Adam reserved the CIERA colloquium room (SkAI floor unavailable in
-December; Day 3 has a long lunch because the room is in use). The site follows the latest Slack decision.
+2026-09-29 to Dec 7–9 at CIERA (Adam's colloquium-room reservation), and on 2026-09-30 back to the SkAI
+Institute on the same dates after Elise Ahn confirmed the SkAI floor is available (per GN). The Day-3
+long-lunch constraint was CIERA-specific and is gone. The site follows the latest decision.
 
 ## Structure
 
 - `index.html` — hero, purpose, six goals, important dates
 - `program.html` — at-a-glance cards + three daily schedule tables (draft) + program notes
 - `participants.html` — application box, SOC cards, LINCC partner cards, empty participant grid
-- `travel.html` — CIERA venue + map, getting to Evanston, lodging stub, about Evanston and Chicago
+- `travel.html` — SkAI venue + map + photo, getting to Chicago, lodging stub, about Chicago
 - `css/styles.css` — single stylesheet; winter palette: steel blue `#3b82c4`, ice blue `#8fd3f4`, silver `#dbe7f3` on deep navy `#111a2e`
-- `assets/images/` — sponsor logos, `rubin-snow.jpg` (hero; 1600×1066 frame `pasted-movie-5690.png` from GN's Keynote `Presentations/GenSci/Narayan_AoT_Pygmalion_Sep2026.key`: Rubin under construction in snow, blue sky. Credit on the page reads "Rubin Observatory/NOIRLab" `[INFERRED — verify: GN to confirm the source video/photo and exact credit; not found in the NOIRLab or rubinobservatory.org galleries on 2026-09-29]`), `northwestern-winter.jpg` (purpose section; Wikimedia Commons "Trees in the Snow (6779788381)", Jaysin Trevino, CC BY 2.0). Credits are printed on the page; keep them if the images stay.
+- `assets/images/` — sponsor logos, `rubin-snow.jpg` (hero; 1600×1066 frame `pasted-movie-5690.png` from GN's Keynote `Presentations/GenSci/Narayan_AoT_Pygmalion_Sep2026.key`: Rubin under construction in snow, blue sky. Credit on the page reads "Rubin Observatory/NOIRLab" `[INFERRED — verify: GN to confirm the source video/photo and exact credit; not found in the NOIRLab or rubinobservatory.org galleries on 2026-09-29]`), `skai.jpg` (purpose section and travel venue card; Hancock Center exterior, credit "Barry Butler Photography", copied from rubinalerts26 where it carried the same credit). Credits are printed on the page; keep them if the images stay. `northwestern-winter.jpg` was removed with the venue change.
 
 The nav, footer, and inline script are copied by hand into each page. A change to any of them
 goes into all four files.
@@ -33,7 +34,7 @@ goes into all four files.
 |---|---|---|
 | Application form URL | `participants.html` registration box | disabled button, `href="#"` |
 | Applications open date | `index.html` Important Dates | badge reads `Date TBA`; deadline is set (Fri Dec 4, 2026, the Friday before the meeting, per GN 2026-09-29) |
-| Hotel block | `travel.html` Lodging | "coming soon" box (downtown Evanston); replace with the hotel card pattern from rubinalerts26 `travel.html` |
+| Hotel block | `travel.html` Lodging | "coming soon" box (Magnificent Mile, near SkAI); replace with the hotel card pattern from rubinalerts26 `travel.html` |
 | Daily program | `program.html` | 3-day compression of the proposal's 5-day agenda; unconfirmed with Adam / Ayan; labelled "Draft" on the page |
 | Speakers | `program.html` Day 1 primer | `TBD` |
 
