@@ -34,7 +34,7 @@ goes into all four files.
 |---|---|---|
 | Registration form URL | `participants.html` registration box, `index.html` Important Dates | done: https://forms.gle/PwJiMqTZfc9sGnx4A (Google Form) |
 | Registration dates | `index.html` Important Dates | open now; deadline Nov 13, 2026; travel funding notifications by ~Nov 5 |
-| Hotel block | `travel.html` Lodging | Westin Downtown Chicago (across from venue) block arranged; booking link still to come; replace with the hotel card pattern from rubinalerts26 `travel.html` |
+| Hotel block | `travel.html` Lodging | done: Westin Downtown Chicago (across from venue) block, Dec 6-10, $154/night plus taxes; booking link https://book.passkey.com/e/51373431 live on the page |
 | Daily program | `program.html` | 3-day compression of the proposal's 5-day agenda; unconfirmed with Adam / Ayan; labelled "Draft" on the page |
 | Speakers | `program.html` Day 1 primer | `TBD` |
 
