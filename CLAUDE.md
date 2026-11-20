@@ -7,7 +7,7 @@ Guidance for Claude Code when working in this repository.
 Static website for **Deploying Foundation Models on the Rubin Alert Stream: A SkAI × LINCC
 Frameworks Hack-Week** (December 7–9, 2026, SkAI Institute, 172 E. Chestnut St., John Hancock Center, Chicago IL).
 Funded by the LSST Discovery Alliance through the LINCC Frameworks Community Events program
-(awarded 2026-07-18). PI Gautham Narayan (UIUC), Co-PI Adam Miller (Northwestern); Adam runs the event on site with SkAI operations (Elise Ahn). The LINCC Frameworks team is Konstantin Malanchev (CMU, LSDB) and Max West (UW, Hyrax), per PR #1 (2026-10-28), which replaced Aritra Ghosh and Neven Caplar. Pure HTML/CSS, no build step. Cloned from `~/work/rubinalerts26.github.io/`.
+(awarded 2026-07-18). PI Gautham Narayan (UIUC), Co-PI Adam Miller (Northwestern); Adam runs the event on site with SkAI operations (Elise Ahn). The LINCC Frameworks team is Konstantin Malanchev (CMU, LSDB) and Maxine West (UW, Hyrax), per PR #1 (2026-10-28), which replaced Aritra Ghosh and Neven Caplar. Pure HTML/CSS, no build step. Cloned from `~/work/rubinalerts26.github.io/`.
 
 Source of truth for scope, SOC, program and budget: the funded proposal at
 `~/Dropbox/work/Proposals/2026A/LSST_DA_DP2_Hyrax_Workshop/proposal/submitted_20260710/`.
