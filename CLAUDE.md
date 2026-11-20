@@ -110,5 +110,8 @@ magick input.jpg -resize '1920x>' -quality 82 -strip -interlace Plane \
 first-draft register review (vs Boom! 2022, rubinalerts26, the proposal) and the clarity/fidelity
 review (vs the proposal, DESC/TVSSC grad-student persona). `_admin/register_negatives.md` is the
 workshop-website register cache: read it before drafting any new copy for this site.
+`_admin/registrants_2026-11-20.xlsx` is the Google Form responses export (29 registrants; holds emails, dietary and
+travel data, so it stays out of git). The Confirmed Participants grid lists the 20 registrants not already on the SOC or
+LINCC cards, by preferred name.
 
 Contact email throughout: `rubinfm26@lists.skai-institute.org` (SkAI list, created 2026-09-29).
